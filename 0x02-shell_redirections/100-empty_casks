@@ -1,2 +1,2 @@
 #!/bin/bash
-find .c-empty | rev | cut -d '/' -f l | rev
+find . -empty -print %f'/n'
